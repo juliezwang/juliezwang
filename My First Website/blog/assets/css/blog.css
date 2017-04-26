@@ -1,0 +1,114 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	margin:0;
+	padding:0;
+	overflow-x: hidden;
+	background-color: #FFE7F2;
+}
+
+#topbar {
+	background-color:white;
+	width:100%;
+	height:50px;
+	z-index:60;
+	text-decoration: none;
+	position: fixed;
+	outline: double;
+	margin-top: 10px;
+}
+
+.logojw {
+	position: absolute;
+	display: inline-block;
+	height:50px;
+	width: 45px;
+	transform:translateY(-.1px);
+	margin-left: 25px;
+}
+
+#topbar-items {
+	position:absolute;
+	z-index: 100;
+	margin-left: 5%;
+	padding-top: 10px;
+	margin-top: 5px;
+}
+
+.topbar-text {
+	display:inline;
+	color:black;
+	padding: 28px 75px;
+	font-weight:bolder;
+	letter-spacing: .25em;
+	font-size:16px;
+}
+
+.topbar-text:hover {
+	opacity: 0.5;
+}
+
+#mylogo {
+	margin-left: 
+	margin-top: 80px;
+}
+
+#container {
+	float:left;
+	transform: translateY(10%);
+	margin-left: 10%;
+	height:710px;
+	width:250px;
+	background-color: white;
+	border-style: dotted;
+	border-color:lightpink;
+}
+
+.brief {
+	text-align: center;
+	font-weight:bold;
+	color:hotpink;
+}
+
+#blog-container {
+	height:710px;
+	width:770px;
+	border-style: dotted;
+	border-color: lightpink;
+	position: relative;
+	overflow-y: scroll;
+	transform: translateY(10%);
+	margin-left: 400px;
+	background-color: white;
+}
+
+.header {
+	text-align: center;
+	font-weight: bold;
+	font-size:60px;
+	padding-top:20px;
+}
+
+.subtitle {
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.space {
+	float: left;
+}
+
+.pike {
+	float: left;
+}
+
+.pic {
+	font-weight: bold;
+	text-align: center;
+}
+
+#textbox1 {
+	padding:10px;
+}
+.sign {
+	text-align: center;
+}
